@@ -1,0 +1,60 @@
+[v2] labels_array shape: (30331, 9)
+[v2] meta_array shape: (30331, 12)
+[v2] label mean: [0.15185784 0.42560417 0.11361314 0.04335498 0.09188619 0.06725792
+ 0.0625103  0.04391547 0.        ]
+[v2] GAN in key_list: 5000
+[v2] first_gan_idx: 25331 gan_count: 5000
+[v2] Using indices pkl: /Users/luyunxiao/Desktop/classify/data/saveDir/indices_isic2019_gan_trainonly.pkl
+Train
+(25262,)
+(25262,)
+(25264,)
+(25267,)
+(25269,)
+Val
+(5069,)
+(5069,)
+(5067,)
+(5064,)
+(5062,)
+Evaluating on validation set during training.
+Torch: 2.8.0
+mps_built True
+mps_available True
+cuda False
+Using device: mps
+CV set 0
+Balance 9
+Current class weights [  5.60188     1.9671844   7.623025   29.238094    9.653168  106.08377
+ 100.30693    40.36255   106.08377  ]
+Current class weights with extra [  5.60188     1.9671844   7.623025   29.238094    9.653168  106.08377
+ 100.30693    40.36255   106.08377  ]
+scaler mean [5.26810204e+01 2.39965165e-01 1.66020109e-01 1.62299105e-03
+ 1.76945610e-01 2.10592986e-02 3.02034677e-02 1.07869527e-01
+ 3.95455625e-02 1.13451033e-01 5.12033885e-01 4.55545879e-01] var [3.89743326e+02 1.82381885e-01 1.38457433e-01 1.62035695e-03
+ 1.45635861e-01 2.06158045e-02 2.92912182e-02 9.62336924e-02
+ 3.79817110e-02 1.00579896e-01 2.49855186e-01 2.48023831e-01]
+len im path 126725
+CP (126725, 2)
+DataLoader: num_workers=4, pin_memory=False, persistent_workers=True
+Loaded pretrained weights for efficientnet-b0
+Restoring lesion-trained CNN for meta data training: /Users/luyunxiao/Desktop/classify/data/saveDir/2019.test_effb0_ss/CVSet0/checkpoint_best-15.pt
+Train batches 1263
+Start training...
+[Fold 0] Epoch 1/15 Batch 50/1263 loss=1.2231 lr=1.50e-04 ETA(epoch)=15m 3s ETA(total)=5h 3m 42s
+[Fold 0] Epoch 1/15 Batch 100/1263 loss=1.0473 lr=1.50e-04 ETA(epoch)=13m 3s ETA(total)=4h 17m 18s
+[Fold 0] Epoch 1/15 Batch 150/1263 loss=1.5514 lr=1.50e-04 ETA(epoch)=12m 16s ETA(total)=4h 0m 18s
+[Fold 0] Epoch 1/15 Batch 200/1263 loss=1.0228 lr=1.50e-04 ETA(epoch)=11m 50s ETA(total)=3h 52m 0s
+[Fold 0] Epoch 1/15 Batch 250/1263 loss=2.3308 lr=1.50e-04 ETA(epoch)=11m 22s ETA(total)=3h 47m 8s
+[Fold 0] Epoch 1/15 Batch 300/1263 loss=1.1496 lr=1.50e-04 ETA(epoch)=10m 45s ETA(total)=3h 43m 32s
+[Fold 0] Epoch 1/15 Batch 350/1263 loss=0.9118 lr=1.50e-04 ETA(epoch)=10m 16s ETA(total)=3h 41m 1s
+[Fold 0] Epoch 1/15 Batch 400/1263 loss=0.6816 lr=1.50e-04 ETA(epoch)=9m 51s ETA(total)=3h 39m 23s
+[Fold 0] Epoch 1/15 Batch 450/1263 loss=1.2679 lr=1.50e-04 ETA(epoch)=9m 10s ETA(total)=3h 37m 42s
+[Fold 0] Epoch 1/15 Batch 500/1263 loss=1.0971 lr=1.50e-04 ETA(epoch)=8m 34s ETA(total)=3h 36m 9s
+[Fold 0] Epoch 1/15 Batch 550/1263 loss=0.9586 lr=1.50e-04 ETA(epoch)=8m 17s ETA(total)=3h 35m 27s
+[Fold 0] Epoch 1/15 Batch 600/1263 loss=1.8963 lr=1.50e-04 ETA(epoch)=7m 42s ETA(total)=3h 34m 44s
+[Fold 0] Epoch 1/15 Batch 650/1263 loss=1.9254 lr=1.50e-04 ETA(epoch)=7m 0s ETA(total)=3h 33m 48s
+[Fold 0] Epoch 1/15 Batch 700/1263 loss=1.2289 lr=1.50e-04 ETA(epoch)=6m 25s ETA(total)=3h 32m 53s
+[Fold 0] Epoch 1/15 Batch 750/1263 loss=1.8288 lr=1.50e-04 ETA(epoch)=5m 59s ETA(total)=3h 32m 20s
+[Fold 0] Epoch 1/15 Batch 800/1263 loss=2.3452 lr=1.50e-04 ETA(epoch)=5m 19s ETA(total)=3h 31m 35s
+[Fold 0] Epoch 1/15 Batch 850/1263 loss=1.2310 lr=1.50e-04 ETA(epoch)=4m 43s ETA(total)=3h 30m 46s
